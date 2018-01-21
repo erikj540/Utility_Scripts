@@ -1,17 +1,17 @@
 #!/bin/bash
 
 # NAME:         pdflinkextractor
-# AUTHOR:       Glutanimate (http://askubuntu.com/users/81372/), 2013
+# AUTHOR:       Glutanimate (http://askubuntu.com/users/81372/) with changes made by Erik Johnson
 # LICENSE:      GNU GPL v2
 # DEPENDENCIES: wget lynx
 # DESCRIPTION:  extracts PDF links from websites and dumps them to the stdout and as a textfile
 #               only works for links pointing to files with the ".pdf" extension
 #
-# USAGE:        pdflinkextractor "www.website.com"
+# USAGE:        pdflinkextractor "www.website.com" output_dir
 
 WEBSITE="$1"
 
-echo "Getting link list..."
+echo "Getting linked list..."
 echo "$1"
 echo "$2"
 
